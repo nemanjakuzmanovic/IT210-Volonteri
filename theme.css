@@ -1,0 +1,337 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("css/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 13px;
+    color: black;
+}
+
+header{
+    background: rgb(123, 32, 77);
+    border-bottom: 1px solid rgb(123, 32, 77);
+    height: 60px;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.headerList{
+    position: relative;
+    display: block;
+    float: left;
+    padding: 10px 100px;
+    border-right: 1px solid rgb(51, 51, 51);
+    height: 35px;
+    font-family: Arial;
+    line-height: 35px;
+    color: #cfcfcf;
+    text-transform: capitalize;
+}
+
+#floatRight{float: right;}
+
+.formStyle{
+    position: relative;
+    display: block;
+    width: 1000px;
+    background: rgb(123, 32, 80) none repeat scroll 0% 0%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.formStyle input[type=text]{
+    position: relative;
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+    background: rgb(176,224,230) none repeat scroll 0% 0%;
+    border: 1px solid rgb(85, 85, 85);
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.formStyle input[type=password]{
+    position: relative;
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+    background: rgb(176,224,230) none repeat scroll 0% 0%;
+    border: 1px solid rgb(85, 85, 85);
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.formStyle input[type=submit], .button{
+    
+      
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 15px 50px 15px 50px;
+      text-decoration: none;
+      margin-left: 350px;
+      margin-right: 0;
+      margin-top: 15px;
+      background-color: black;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    
+
+}
+
+
+.loginForm{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 250px;
+    background: rgb(99, 99, 99) none repeat scroll 0% 0%;
+    border: 10px solid rgb(23, 23, 85);
+    top: calc(50% - 180px);
+    margin: 0px auto;
+    padding: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+}
+
+.loginForm > input[type=text], .loginForm > input[type=password]{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px;
+    background: black none repeat scroll 0% 0%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.loginForm > input[type=submit]{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(65, 162, 207);
+    background: blue none repeat scroll 0% 0%;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.loginForm > p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+#hp1{
+    background: url(css/2.jpg);
+
+}
+
+
+.volonteriKlasa > a > div{
+    position: relative;
+    display: inline-table;
+    width: 50%;
+    border: 1px solid cyan;
+    margin-left: 450px;
+}
+
+.volonteriKlasa > a > div > div{
+    position: relative;
+    display: table-cell;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(123, 32, 77);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.firstV, .secV{
+    width: 120px;
+}
+
+.volonteriKlasa > a:hover > div{
+    background: #444;
+}
+
+.akcijaClass{
+    position: relative;
+    display: table;
+    width: 980px;
+    margin: 0px auto;
+    padding: 20px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    border: 1px solid rgb(68, 68, 68);
+    color: white;
+    top: 0px;
+    
+
+   
+}
+
+.akcijaClass > .VTabela{
+    position: relative;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    padding: 10px 0px;
+}
+
+
+
+.akcijaClass > .VTabela > .VTAB > .p1{
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+.akcijaClass > .VTabela > .VTAB > .p3{
+    color: pink;
+}
+
+
+
+.akcijaClass > .VTabela > .VTAB2{
+    position: relative;
+    vertical-align: middle;
+    width: 130px;
+    padding: 0px 20px;
+    border-left: 1px solid rgb(85, 85, 85);
+    text-align: center;
+    color: black;
+}
+
+.akcijaClass > .VTabela > .VTAB > .p2 > a{
+    color: cyan;
+    text-decoration: none;
+}
+
+#select {
+    color: black;
+    margin-left: 750px;
+    border: 1px solid #111;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.tableVol{
+    position: relative;
+    display: block;
+    width: 980px;
+    background: white none repeat scroll 0% 0%;
+    border: 1px solid rgb(68, 68, 68);
+    margin: 10px auto;
+    padding: 20px;
+    color: black;
+    font-size: 16px;
+}
+
+.tableVol .divVolT{
+    position: relative;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    padding: 10px 0px;
+}
+
+.tableVol .divVolT > .div1{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-indent: 20px;
+}
+
+.tableVol .divVolT > .div2{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px;
+    border-left: 1px solid rgb(85, 85, 85);
+    width: 120px;
+    text-align: center;
+}
+
+.tableVol .divVolT > .div3{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px;
+    border-left: 1px solid rgb(85, 85, 85);
+    width: 30px;
+}
+
+.volTextCenterTitle{
+    position: relative;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.trueP{
+    background: cyan;
+    color: white;
+}
+
+.prisVolTable{
+    position: relative;
+    display: table;
+    width: 980px;
+    margin: 0px auto;
+    padding: 20px;
+    background: #99004C none repeat scroll 0% 0%;
+    border: 1px solid rgb(68, 68, 68);
+    color: white;
+}
+
+.pris1{
+    border-bottom: 1px solid rgb(85, 85, 85);
+    padding: 10px;
+}
+
+.pris1 > p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.pris1 > p > span{
+    float: right;
+}
+
+.nouP{color: rgb(255, 51, 51);}
+
+.yesP{color: rgb(200, 255, 51);}
